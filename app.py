@@ -1,9 +1,7 @@
 import dash
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import dcc, html
 import plotly.graph_objs as go
 from dash.dependencies import Input, Output, State
-import plotly.figure_factory as ff
 import pandas as pd
 
 # Read in the USA counties shape files
